@@ -1,0 +1,31 @@
+
+  .box {
+    width: 200px;
+    height: 200px;    
+    position: relative;
+
+  }
+    
+  .container:hover .box {
+    left: 90%;
+  }
+  
+  .one {
+    background: red;
+    height:92px;
+    width:100px;
+    transition: 2s left;
+    position: absolute;
+    left:0;
+  }
+  
+  .two {
+    background: green;
+    height:92px;
+    width:100px;
+    top:100px;
+    transition: 2s left;
+    position: absolute;
+    transition-delay: 1s;
+    left:0;
+  }
